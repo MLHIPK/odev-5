@@ -6,11 +6,12 @@ public class Personel {
     private double maas;
     private int calismaGunSayisi;
     private double ekPrim;
+    
     public Personel(String ad, String soyad, double maas) {
         this.ad = ad;
         this.soyad = soyad;
         this.maas = maas;
-        this.ekPrim = ekPrim;
+        this.ekPrim = 0.0;
         this.calismaGunSayisi = 0; //
     }
     public void calismaGunEkle(int calismaGunSayisi) {
