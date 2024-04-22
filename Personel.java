@@ -17,6 +17,7 @@ public class Personel {
         this.calismaGunSayisi += calismaGunSayisi;
     }
     public double maasHesapla(double ekPrim) {
+        this.ekPrim = ekPrim; 
         double toplamMaas = maas * calismaGunSayisi;
         if (calismaGunSayisi > 25) {
             int fazlaGunSayisi = calismaGunSayisi - 25;
